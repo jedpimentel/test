@@ -1,5 +1,6 @@
 body {
   margin: auto;
+  margin-top: 30px;
   max-width: 780px;
 }
 
@@ -8,7 +9,8 @@ header, footer, section {
 }
 
 footer {
-  height: 20px;
+  clear: both;
+  height: 30px;
 }
 
 header {
@@ -21,5 +23,22 @@ header img {
 }
 
 section {
-  height: 60px;
+  float: left;
+  height: 90px;
+  display: block;
+}
+
+.highlighted-section > .blue-box {
+  border: 1px solid blue;
+  margin: 10px;
+  height: calc( 100% - 20px );
+  width: calc( 100% - 20px );
+}
+
+.half {
+  width: calc( 100% / 2 - 2px);
+}
+
+.third {
+  width: calc( 100% / 3 - 2px );
 }
