@@ -42,3 +42,9 @@ section {
 .third {
   width: calc( 100% / 3 - 2px );
 }
+
+@media screen and (max-width: 480px) {
+  .half, .third {
+    width: 100%;
+  }
+}
